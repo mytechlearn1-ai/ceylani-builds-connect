@@ -1,7 +1,7 @@
 import { Card, CardContent } from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
 import { ArrowRight } from "lucide-react";
-import projectHighrise from "@/assets/project-highrise-sri-lanka.jpg";
+import projectHighrise from "@/assets/mulberry-residence.jpg";
 import projectLandscaping from "@/assets/project-landscaping-sri-lanka.jpg";
 import projectLandDevelopment from "@/assets/project-land-development-sri-lanka.jpg";
 
@@ -9,9 +9,9 @@ const Projects = () => {
   const projects = [
     {
       image: projectHighrise,
-      title: "Colombo Sky Towers",
+      title: "Mulberry Residence",
       category: "High-rise Development",
-      description: "Premium residential high-rise complex featuring modern amenities and sustainable design solutions.",
+      description: "Modern residential tower in Colombo featuring contemporary design and premium lifestyle amenities with panoramic city views.",
       status: "Completed 2024"
     },
     {
