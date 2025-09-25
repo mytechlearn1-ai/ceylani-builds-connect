@@ -1,4 +1,5 @@
-import { Building, Facebook, Instagram, Linkedin, Mail, Phone } from "lucide-react";
+import { Facebook, Instagram, Linkedin, Mail, Phone } from "lucide-react";
+import logo from "@/assets/ceylani-logo.png";
 
 const Footer = () => {
   return (
@@ -6,8 +7,8 @@ const Footer = () => {
       <div className="container mx-auto px-4 lg:px-8">
         <div className="py-16 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
           <div className="lg:col-span-2">
-            <div className="flex items-center space-x-2 mb-6">
-              <Building className="h-8 w-8 text-accent" />
+            <div className="flex items-center space-x-3 mb-6">
+              <img src={logo} alt="Ceylani Global Logo" className="h-10 w-auto" />
               <span className="text-2xl font-bold">Ceylani Global</span>
             </div>
             <p className="text-primary-foreground/80 mb-6 max-w-md leading-relaxed">
