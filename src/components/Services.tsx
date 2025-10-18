@@ -10,6 +10,12 @@ const Services = () => {
       features: ["Residential Buildings", "Commercial Structures", "Renovation & Restoration"]
     },
     {
+      icon: Construction,
+      title: "Building Maintenance",
+      description: "Comprehensive building maintenance services ensuring your property remains in optimal condition with preventive and corrective solutions.",
+      features: ["Preventive Maintenance", "Emergency Repairs", "Facility Management"]
+    },
+    {
       icon: MapPin,
       title: "Land Development",
       description: "Professional land preparation and development services ensuring optimal site conditions for any construction project.",
@@ -42,7 +48,7 @@ const Services = () => {
           </p>
         </div>
         
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-5 gap-8">
           {services.map((service, index) => (
             <Card key={index} className="group hover:shadow-strong transition-all duration-300 hover:scale-105 border-border/50">
               <CardContent className="p-8 text-center">

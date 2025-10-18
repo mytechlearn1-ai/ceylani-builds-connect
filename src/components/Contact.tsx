@@ -9,14 +9,14 @@ const Contact = () => {
     {
       icon: Phone,
       title: "Phone",
-      details: ["+94 11 234 5678", "+94 77 123 4567"],
-      link: "tel:+94112345678"
+      details: ["0363139400", "0778956650"],
+      link: "tel:0363139400"
     },
     {
       icon: Mail,
       title: "Email",
-      details: ["info@ceylaniglobal.lk", "projects@ceylaniglobal.lk"],
-      link: "mailto:info@ceylaniglobal.lk"
+      details: ["info@ceylanig.com"],
+      link: "mailto:info@ceylanig.com"
     },
     {
       icon: MapPin,
@@ -27,7 +27,7 @@ const Contact = () => {
     {
       icon: Clock,
       title: "Business Hours",
-      details: ["Mon - Fri: 8:00 AM - 6:00 PM", "Sat: 9:00 AM - 4:00 PM"],
+      details: ["Mon - Fri: 8:00 AM - 6:00 PM"],
       link: "#"
     }
   ];
@@ -74,7 +74,7 @@ const Contact = () => {
                 <ul className="space-y-3 text-muted-foreground">
                   <li className="flex items-center">
                     <div className="w-2 h-2 bg-accent rounded-full mr-3"></div>
-                    15+ years of industry experience
+                    10+ years of industry experience
                   </li>
                   <li className="flex items-center">
                     <div className="w-2 h-2 bg-accent rounded-full mr-3"></div>
@@ -83,10 +83,6 @@ const Contact = () => {
                   <li className="flex items-center">
                     <div className="w-2 h-2 bg-accent rounded-full mr-3"></div>
                     Competitive pricing and transparent quotes
-                  </li>
-                  <li className="flex items-center">
-                    <div className="w-2 h-2 bg-accent rounded-full mr-3"></div>
-                    24/7 customer support
                   </li>
                 </ul>
               </CardContent>

@@ -16,10 +16,10 @@ const Projects = () => {
     },
     {
       image: projectLandscaping,
-      title: "Botanical Garden Estate",
-      category: "Landscaping",
-      description: "Comprehensive landscaping project creating harmonious outdoor spaces with native flora integration.",
-      status: "Ongoing"
+      title: "Sri Lankan Airlines",
+      category: "Construction & Building Maintenance",
+      description: "New building construction and comprehensive building maintenance services for Sri Lankan Airlines facilities.",
+      status: "Completed 2024"
     },
     {
       image: projectLandDevelopment,

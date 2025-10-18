@@ -14,7 +14,7 @@ const Footer = () => {
             <p className="text-primary-foreground/80 mb-6 max-w-md leading-relaxed">
               Leading multi-disciplinary construction company in Sri Lanka, delivering 
               exceptional results in construction, land development, high-rise services, 
-              and landscaping for over 15 years.
+              and landscaping for over 10 years.
             </p>
             <div className="flex space-x-4">
               <a href="#" className="w-10 h-10 bg-primary-foreground/10 rounded-full flex items-center justify-center hover:bg-accent transition-colors">
@@ -23,7 +23,7 @@ const Footer = () => {
               <a href="#" className="w-10 h-10 bg-primary-foreground/10 rounded-full flex items-center justify-center hover:bg-accent transition-colors">
                 <Instagram className="w-5 h-5" />
               </a>
-              <a href="#" className="w-10 h-10 bg-primary-foreground/10 rounded-full flex items-center justify-center hover:bg-accent transition-colors">
+              <a href="https://www.linkedin.com/company/ceylani-global-pvt-ltd/?viewAsMember=true" target="_blank" rel="noopener noreferrer" className="w-10 h-10 bg-primary-foreground/10 rounded-full flex items-center justify-center hover:bg-accent transition-colors">
                 <Linkedin className="w-5 h-5" />
               </a>
             </div>
@@ -35,8 +35,10 @@ const Footer = () => {
               <li><a href="#home" className="text-primary-foreground/80 hover:text-accent transition-colors">Home</a></li>
               <li><a href="#services" className="text-primary-foreground/80 hover:text-accent transition-colors">Services</a></li>
               <li><a href="#about" className="text-primary-foreground/80 hover:text-accent transition-colors">About Us</a></li>
+              <li><a href="#lands" className="text-primary-foreground/80 hover:text-accent transition-colors">Lands</a></li>
               <li><a href="#projects" className="text-primary-foreground/80 hover:text-accent transition-colors">Projects</a></li>
               <li><a href="#contact" className="text-primary-foreground/80 hover:text-accent transition-colors">Contact</a></li>
+              <li><a href="https://forms.gle/YZsTnoQgPmhbHuYB6" target="_blank" rel="noopener noreferrer" className="text-primary-foreground/80 hover:text-accent transition-colors">Register Property</a></li>
             </ul>
           </div>
           
@@ -45,11 +47,15 @@ const Footer = () => {
             <div className="space-y-4">
               <div className="flex items-center space-x-3">
                 <Phone className="w-5 h-5 text-accent" />
-                <span className="text-primary-foreground/80">+94 11 234 5678</span>
+                <span className="text-primary-foreground/80">0363139400</span>
+              </div>
+              <div className="flex items-center space-x-3">
+                <Phone className="w-5 h-5 text-accent" />
+                <span className="text-primary-foreground/80">0778956650</span>
               </div>
               <div className="flex items-center space-x-3">
                 <Mail className="w-5 h-5 text-accent" />
-                <span className="text-primary-foreground/80">info@ceylaniglobal.lk</span>
+                <span className="text-primary-foreground/80">info@ceylanig.com</span>
               </div>
               <div className="flex items-start space-x-3">
                 <div className="w-5 h-5 text-accent mt-0.5">📍</div>
