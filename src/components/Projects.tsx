@@ -2,7 +2,7 @@ import { Card, CardContent } from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
 import { ArrowRight } from "lucide-react";
 import projectHighrise from "@/assets/mulberry-residence.jpg";
-import projectLandscaping from "@/assets/project-landscaping-sri-lanka.jpg";
+import projectSriLankan from "@/assets/srilankan-airlines-building.jpg";
 import projectLandDevelopment from "@/assets/project-land-development-sri-lanka.jpg";
 
 const Projects = () => {
@@ -15,7 +15,7 @@ const Projects = () => {
       status: "Completed 2024"
     },
     {
-      image: projectLandscaping,
+      image: projectSriLankan,
       title: "Sri Lankan Airlines",
       category: "Construction & Building Maintenance",
       description: "New building construction and comprehensive building maintenance services for Sri Lankan Airlines facilities.",
