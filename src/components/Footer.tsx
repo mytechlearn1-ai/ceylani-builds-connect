@@ -59,7 +59,7 @@ const Footer = () => {
               </div>
               <div className="flex items-start space-x-3">
                 <div className="w-5 h-5 text-accent mt-0.5">📍</div>
-                <span className="text-primary-foreground/80">123 Galle Road<br />Colombo 03, Sri Lanka</span>
+                <span className="text-primary-foreground/80">No. 232/A, Lumbini<br />Wevila, Kalatuwawa</span>
               </div>
             </div>
           </div>

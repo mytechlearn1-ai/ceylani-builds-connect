@@ -21,7 +21,7 @@ const Contact = () => {
     {
       icon: MapPin,
       title: "Address",
-      details: ["123 Galle Road", "Colombo 03, Sri Lanka"],
+      details: ["No. 232/A, Lumbini", "Wevila, Kalatuwawa"],
       link: "#"
     },
     {
