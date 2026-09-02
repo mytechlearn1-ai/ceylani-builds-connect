@@ -4,9 +4,9 @@ import logoMulberry from "@/assets/logo-mulberry.png";
 
 const ClientLogos = () => {
   const completedProjects = [
-    { name: "Sri Lankan Airlines", logo: logoSriLankan },
-    { name: "Mulberry Residence", logo: logoMulberry },
-    { name: "Industrial Zone Development", logo: logoIndustrial }
+    { name: "Sri Lankan Airlines", logo: logoSriLankan.url },
+    { name: "Barista", logo: logoBarista.url },
+    { name: "Mulberry Residence", logo: logoMulberry }
   ];
 
   return (
