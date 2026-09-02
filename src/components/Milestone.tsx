@@ -18,11 +18,11 @@ const Milestone = () => {
 
         <Card className="overflow-hidden border-border/50 hover:shadow-strong transition-all duration-500 max-w-6xl mx-auto">
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-0">
-            <div className="relative overflow-hidden min-h-[400px] lg:min-h-[500px]">
+            <div className="bg-muted/50 flex items-center justify-center p-4 lg:p-8">
               <img
                 src={milestoneImage.url}
                 alt="Ceylani Global celebrates completing the 100th Barista outlet"
-                className="absolute inset-0 w-full h-full object-cover"
+                className="w-full h-auto max-h-[700px] object-contain rounded-lg shadow-medium"
               />
             </div>
 
