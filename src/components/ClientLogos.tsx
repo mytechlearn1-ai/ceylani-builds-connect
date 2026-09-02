@@ -1,6 +1,6 @@
-import logoSriLankan from "@/assets/logo-srilankan-airlines.png";
+import logoSriLankan from "@/assets/srilankan-airlines-thumb.png.asset.json";
+import logoBarista from "@/assets/barista.jpeg.asset.json";
 import logoMulberry from "@/assets/logo-mulberry.png";
-import logoIndustrial from "@/assets/logo-industrial.png";
 
 const ClientLogos = () => {
   const completedProjects = [
